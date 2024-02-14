@@ -1,0 +1,65 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    display: grid;
+    gap: 5px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgba(255, 238, 0, 0.968);
+    gap: 5px;
+}
+
+nav{
+    display: grid;
+    grid-template-rows: 50% 50% 50%;
+    background-color: pink;
+    gap: 5px;
+}
+header nav ul{
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    gap: 5px;
+}
+.postT{
+    display: grid;
+    background-color: lightblue;
+    grid-template-columns: 50% 50%;
+}
+.meta{
+    background-color: lightgreen;
+    grid-template-columns: 50% 50%;
+    
+}
+.mainContent{
+    background-color: lightgray;
+}
+.image{
+    background-color: gold;
+}
+
+.bar1{
+    background-color: orange;
+}
+.bar2{
+    background-color: green;
+}
+.bar3{
+    background-color: plum;
+}
+
+footer{
+    background-color: rgb(181, 116, 20);
+}
+
+
+
+
