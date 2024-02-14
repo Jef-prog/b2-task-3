@@ -20,7 +20,7 @@ nav{
     gap: 5px;
 }
 header nav ul{
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33.33% 33.33% 33.33%;
     gap: 5px;
 }
 
@@ -32,12 +32,11 @@ main{
 .postT{
     display: grid;
     background-color: lightblue;
-    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
 }
 .meta{
     background-color: lightgreen;
     grid-template-columns: 50% 50%;
-    
 }
 .mainContent{
     background-color: lightgray;
